@@ -26165,7 +26165,7 @@ a7c:function a7c(){},
 MV:function MV(a){this.a=a},
 a8G:function a8G(a){this.a=a},
 a8H:function a8H(){},
-a8I:function a8I(){},
+a8I:function a8I(a){this.a=a},
 MX:function MX(a){this.a=a},
 a99:function a99(a,b){this.a=a
 this.b=b},
@@ -88327,7 +88327,7 @@ l=s?6:12
 k=t.p
 q=A.cX(A.b([i,B.f8,r,B.zK,A.Sk(B.iw,A.b([o,A.aAk(new A.c9(new A.aE(n,l,n,l),B.Z7,j),new A.a8H(),m)],k),B.fj,p,q)],k),B.aa,B.I,B.eV)
 p=t.sp
-i=A.W(new A.a_(g,new A.a8I(),p),p.h("an.E"))
+i=A.W(new A.a_(g,new A.a8I(s),p),p.h("an.E"))
 return A.pz(A.wa(B.dd,A.b([new A.eY(B.Z,j,j,q,j),A.afC(40,A.Sk(B.iw,i,B.fj,20,30),j,j,0,0,j,j)],k),B.a_,B.dW),B.E,j,B.Cd,h.a.b,j,j,1/0)}}
 A.a8G.prototype={
 $0(){A.MM(this.a).t9("/contact",null)},
@@ -88336,14 +88336,19 @@ A.a8H.prototype={
 $0(){},
 $S:0}
 A.a8I.prototype={
-$1(a){var s,r,q=null
+$1(a){var s,r,q,p,o,n=null
 if(a.ac("svg")){s=a.i(0,"svg")
 s.toString
 s=J.cI(s)
-r=new A.A9(B.k,B.mq,q,B.DK)
-r=new A.Rn(32,32,new A.E5(s,q,q,q,q),r,q)
-s=r}else s=A.AG(t.tk.a(a.i(0,"icon")),B.k,q,32)
-return A.cX(A.b([s,B.TB,A.hm(J.cI(a.i(0,"title")),q,q,q,A.eO(q,q,B.k,q,q,q,q,q,q,q,q,12,q,q,B.V,q,q,!0,q,q,q,q,q,q,q,q),q,q)],t.p),B.aa,B.I,B.eV)},
+r=this.a
+q=r?16:32
+p=r?16:32
+o=new A.A9(B.k,B.mq,n,B.DK)
+o=new A.Rn(p,q,new A.E5(s,n,n,n,n),o,n)
+s=o}else{s=t.tk.a(a.i(0,"icon"))
+r=this.a
+s=A.AG(s,B.k,n,r?16:32)}q=J.cI(a.i(0,"title"))
+return A.cX(A.b([s,B.TB,A.hm(q,n,n,n,A.eO(n,n,B.k,n,n,n,n,n,n,n,n,r?8:12,n,n,B.V,n,n,!0,n,n,n,n,n,n,n,n),n,n)],t.p),B.aa,B.I,B.eV)},
 $S:563}
 A.MX.prototype={
 N(a){var s,r=null,q=A.bs(a,r,t.w).w.a.a<600,p=t.N,o=t.K,n=A.b([A.a3(["title","Step 1: Frame Capture","description","Your phone camera captures video frames in real-time using our app.","icon",B.JE],p,o),A.a3(["title","Step 2: Frame Upload","description","Captured frames are securely sent to our cloud server for processing.","icon",B.JA],p,o),A.a3(["title","Step 3: AI Processing","description","Our advanced rPPG algorithms analyze the frames to extract vital signals.","icon",B.JC],p,o),A.a3(["title","Step 4: Vitals Returned","description","Accurate health vitals like Heart Rate, SpO\u2082, etc., are returned to the app.","icon",B.JB],p,o)],t.Mq)
