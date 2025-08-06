@@ -1,11 +1,11 @@
 {
-    "name": "quant_cloud",
+    "name": "quantum_vibes_cloud",
     "short_name": "quant_cloud",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Quantum Vibes is an AI-powered face scan solution that gives you instant health insights like heart rate, BP, SpO2, and more using just your camera.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
